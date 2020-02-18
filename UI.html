@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pig Game</title>
+    <link rel='stylesheet' href='design.css'>
+</head>
+<body>
+    <div id = 'upperPart'>
+        <h1 id = 'title'> THE PIG GAME </h1>
+    </div>
+
+    <div id = 'lowerPart'>
+            <div id ='player_1_area'>
+                <div id='player_0'> PLAYER 1</div>
+                <div id='instance_0'> 0 </div>
+                <div id ='turn_0'> THIS TURN: 0 </div>
+                <div id='total_0'> TOTAL: 0 </div>
+            </div>
+
+            <div id = 'control_area'>
+                <div> 
+                    <button type = 'button' id='newGame'> NEW GAME </button>
+                </div>
+                <div> 
+                    <img src='dice-1.png' id='dice'> 
+                </div>
+                <div> 
+                    <button type = 'button' id='endTurn'> END TURN </button> 
+                </div>
+                <div> 
+                    <div id = 'insert'> WHOEVER GETS 100 POINTS FIRST WILL BE THE WINNER </div>
+                </div>
+
+            </div>
+
+            <div id = 'player_2_area'>
+                <div id='player_1'> PLAYER 2</div>
+                <div id='instance_1'> 0 </div>
+                <div id='turn_1'> THIS TURN: 0 </div>
+                <div id='total_1'> TOTAL: 0 </div>
+            </div>
+    </div>
+
+    <div >
+         <p id = 'credit'> Created by Nguyen Duy Tung, 18/02/2020. All copyrights reversed </p> 
+    </div>
+<script src='control.js'> </script>
+</body>
+
+</html>
